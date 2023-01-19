@@ -1,0 +1,35 @@
+ojetivo:
+    Site completo
+    site de estoque
+    venda de produtos
+
+functions:
+    page menu  <>
+    page produtos
+    login/clientes
+    login/funcionários
+
+    edit/clientes
+    edit/funcionários
+    edit/estoque
+    edit/venda de produtos 
+
+produtos:
+    sapatos
+    tenis
+    chinelos
+
+edit:
+    remove
+    add
+    update
+
+style:
+    dark
+    gamer
+
+color based:
+    #181D31
+    #678983
+    #E6DDC4
+    #F0E9D2
