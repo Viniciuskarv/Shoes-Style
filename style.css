@@ -1,4 +1,25 @@
 header{
+    position: absolute;
     background-color:#181D31;
     color: #E6DDC4;
+    width: 100%;
+    display: flex;
+    left: 0;
+    top: 4%;
+}
+header img {
+    margin: 0 3%;
+}
+header nav {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+header nav a {
+    margin: 3px;
+    text-decoration: none;
+    color: #E6DDC4;
+    background-color: #182764;
+    width: 50px;
+    height: 50px;
 }
