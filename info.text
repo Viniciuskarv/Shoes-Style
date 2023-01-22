@@ -4,9 +4,11 @@ ojetivo:
     venda de produtos
 
 functions:
-    page menu  <>
-    page produtos
-    login/clientes
+    page menu  <concluded>
+    page registration <concluded>
+    page produtos 
+
+    login/clientes <concluded>
     login/funcionários
 
     edit/clientes
@@ -33,3 +35,4 @@ color based:
     #678983
     #E6DDC4
     #F0E9D2
+    #3a3a57
