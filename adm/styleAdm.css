@@ -1,0 +1,28 @@
+.containerAdd{
+    color: aliceblue;
+    width: 750px;
+    height: 442px;
+    margin: 20px;
+    border: 1px solid #fff;
+}
+.ContainerAddInfo{
+    position: absolute;
+    width: 371px;
+    height: 440px;
+    margin: none ;  
+    border: 1px solid #fff;
+}
+.ContainerAddResu{
+    position: absolute;
+    width: 372px;
+    height: 440px;
+    right: 20px;
+}
+.containerCard{
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 15px 7px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 0 0 15px 15px; 
+    text-align: left;
+}

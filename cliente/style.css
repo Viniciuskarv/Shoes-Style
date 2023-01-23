@@ -10,6 +10,8 @@ header{
     display: flex;
     left: 0;
     top: 4%;
+    box-shadow: #181D31 10px 0 25px;
+
 }
 header h1 {
     font-size: 3em;
