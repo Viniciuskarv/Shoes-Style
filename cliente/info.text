@@ -1,6 +1,6 @@
 ojetivo:
     Site completo
-    site de estoque
+    site de estoque  <>
     venda de produtos
 
 functions:
@@ -8,12 +8,11 @@ functions:
     page registration <concluded>
     page produtos 
 
-    login/clientes <concluded>
-    login/funcionários
+    login/clientes/funcionários  <concluded>
 
     edit/clientes
     edit/funcionários
-    edit/estoque
+    edit/estoque        <>
     edit/venda de produtos 
 
 produtos:
@@ -23,7 +22,7 @@ produtos:
 
 edit:
     remove
-    add
+    add     <>
     update
 
 style:
