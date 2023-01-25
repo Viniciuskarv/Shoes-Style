@@ -12,7 +12,7 @@ functions:
 
     edit/clientes
     edit/funcionários
-    edit/estoque        <>
+    edit/estoque-nav-menu        <>
     edit/venda de produtos 
 
 produtos:

@@ -35,18 +35,26 @@
     color: antiquewhite;
     margin-left: 10px;
     box-shadow: rgba(3, 15, 122, 0.514) 2px 0 3px ;
+    border-radius: 10px;
+}
+.campoAddItens:hover{
+    background-color: #151a291f;
 }
 .btnMin{
-    background-image: linear-gradient(100deg , rgb(37, 228, 78), rgb(17, 176, 182));
+    background-color: #198686;
     color: #fff;
     border: none;
+    padding: 0.3em 1em;
     font-size: 15px;
-    border-radius: 6px;
+    border-radius: 12px;
     width: 80px;
-    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 .btnMin:hover{
     color: rgb(206, 224, 240);
+    background-color: #196386;
+
 }
 .ContainerAddResu{
     position: absolute;
@@ -62,7 +70,6 @@
     border-radius: 0 0 15px 15px; 
     text-align: left;
     box-shadow: rgba(0, 0, 0, 0.596) 4px 4px 10px ;
-
 }
 .containerCard h1, p {
     margin-left: 20px;

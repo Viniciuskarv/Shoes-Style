@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(100deg , rgb(37, 50, 228), rgb(15, 122, 69));
+    background-image: linear-gradient(100deg , rgb(36, 107, 201), rgb(34, 117, 128));
 }
 
 header{
@@ -32,13 +32,15 @@ header nav {
     text-decoration: none;
     color: #E6DDC4;
     background-color: #198686;
-    padding: 0.5em 1em;
+    padding: 0.3em 1em;
     border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 .buttonStyle:hover{
+    color: rgb(206, 224, 240);
     background-color: #196386;
 }
-
 .container {
     position: absolute;
     background:#181d31a9;
@@ -67,6 +69,8 @@ header nav {
 .TextValue{
     text-align: center;
     margin: 10px;
+    text-shadow: #181D31 5px 5px 5px;
+
 }
 .campoInfo, .bigcampoInfo{
     border: none;
@@ -99,4 +103,24 @@ header nav {
     position: absolute;
     top:-11%;
     left: calc(50% - 50px);
+}
+.containerProducts{
+    position: absolute;
+    background-color: #181d3156;
+    height: 85%;
+    width: 95%;
+    margin-top: 110px;
+    margin-left: 2%;
+}
+.containerProductsUnitario{
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 15px 7px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 0 0 15px 15px; 
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.596) 4px 4px 10px ;
+}
+.containerProductsUnitario h1, p {
+    margin-left: 20px;
 }
