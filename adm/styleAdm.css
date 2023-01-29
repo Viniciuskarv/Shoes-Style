@@ -56,7 +56,7 @@
     background-color: #196386;
 
 }
-.ContainerAddResu{
+#ContainerAddResu{
     position: absolute;
     width: 372px;
     height: 440px;
@@ -73,4 +73,11 @@
 }
 .containerCard h1, p {
     margin-left: 20px;
+}
+.error {
+    background-color: rgba(248, 74, 74, 0.5);
+    border-bottom: 1px solid rgba(250, 101, 101, 0.5);
+}
+.error::placeholder {
+    color: rgba(250, 101, 101, 0.5);
 }
